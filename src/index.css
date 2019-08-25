@@ -7,14 +7,21 @@ code {
     monospace;
 }
 
+.todo-list {
+  align-items: center;
+  margin: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
 .todo-item {
   display: flex;
   justify-content: flex-start;
   background-color: smokewhite;
-  text-align: center;
-  padding: 60px 20px 0;
+  padding: 20px 20px 0;
   border-bottom: 1px solid #cecece;
-  width: 30%;
+  width: 70%;
   font-family: Roboto, sans-serif;
   font-weight: 100;
   align-items: center;

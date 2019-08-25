@@ -28,7 +28,7 @@ class App extends React.Component {
     const itemList = this.state.todos.map(item => (
       <TodoItem key={item.id} item={item} handleChange={this.handleChange} />
     ));
-    return <div>{itemList}</div>;
+    return <div className="todo-list">{itemList}</div>;
   }
 }
 
