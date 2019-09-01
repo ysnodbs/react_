@@ -16,6 +16,12 @@ function TodoItem(props) {
       <p style={props.item.completed ? completedItemStyle : null}>
         {props.item.text}
       </p>
+      <button
+        style={{ margin: 20 }}
+        onClick={() => props.deleteTodo(props.item.id)}
+      >
+        Delete
+      </button>
     </div>
   );
 }
